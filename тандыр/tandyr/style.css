@@ -423,7 +423,7 @@ body {
 }
 
 @media (max-width: 1000px) {
-    .button-menu {
+    /*.button-menu {
         display: block;
         position: fixed;
         right: 150px;
@@ -432,7 +432,7 @@ body {
     .block {
         display: block;
         font-size: 25px;
-    }
+    }*/
 
     .button-slide {
         position: fixed;
