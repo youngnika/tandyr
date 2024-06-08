@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='style.css'>
+    <title>Солнечный тандыр</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/cart.js"></script>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: #F3E3CB;
+        }
+    </style>
+    <div class='header'>
+        <div class='container'>
+            <div class='header-line'>
+                <div class='header-logo'>
+                    <img class='header-logo' src="logo.png" alt="">
+                </div>
+
+
+                <div class='nav'>
+                    <a class='nav-item' href="#glavnaya">Главная</a>
+                    <a class='nav-item' href="#menuu">Меню</a>
+                    <a class='nav-item' href="#history_name">О нас</a>
+                    <a class='nav-item' href="#dostavka_name">Доставка</a>
+                </div>
+
+                <div class='number'>
+                    <a class='num' href="tel:+79140761444">+7 914 076 14 44</a>
+                </div>
+
+                <div class='button-menu'>
+                    <button id='button'>
+                        <img class='button-menu' src="меню.png" alt="">
+                    </button>
+                    <div id='menu' class='button-slide' disp>
+                        <a class='nav-item block' href="#glavnaya">Главная</a>
+                        <a class='nav-item block' href="#menuu">Меню</a>
+                        <a class='nav-item block' href="#history_name">О нас</a>
+                        <a class='nav-item block' href="#dostavka_name">Доставка</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div id='glavnaya' class='header-down'>
+                <div class='glavnaya-text'>
+                    <img class='glavnaya-text' src="logo2.png" alt="">
+                </div>
+                <div class='header-title'>
+                    место, где встречаются вкус и тепло
+                </div>
+
+                <div class='header-bth'>
+                    <a href='#menuu' class='header-button'>Посмотреть меню</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <section id='cards' class='cards'>
+        <div class='container'>
+            <div class='cards-holder'>
+
+                <div class='card'>
+
+                    <div class='card-image'>
+                        <img class='card-img' src='images/card.png'>
+                    </div>
+
+                    <div class='card-desc'>
+                        Вся продукция производится <br><span>в</span> <span>тандыре</span>
+                    </div>
+
+                </div>
+
+                <div class='card'>
+
+                    <div class='card-image'>
+                        <img class='card-img' src='images/card.png'>
+                    </div>
+
+                    <div class='card-desc'>
+                        <span>Качественный</span> <br> продукт по <br> <span>низкой</span> цене
+                    </div>
+
+                </div>
+
+                <div class='card'>
+
+                    <div class='card-image'>
+                        <img class='card-img' src='images/card.png'>
+                    </div>
+
+                    <div class='card-desc'>
+                        <span>Доставка</span> горячей <br> выпечки прямо <br> до двери
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='menuu' class='bakery'>
+        <div class='container'>
+
+            <div class='bakery-title'>
+                Наша выпечка
+
+                <div class='bakery-subtitle'>
+                    из самого горячего тандыра
+                </div>
+                <div class='bakery-products'>
+
+                    <div class='bakery-product'>
+                        <div class='menu-image'>
+                            <img class='menu-image' src='images/фото1.png' class='menu-img'>
+                        </div>
+
+                        <div class='menu-text'>
+                            Лепёшка
+                        </div>
+
+                        <div class='menu-subtext'>
+                            Традиционная плоская <br> лепешка имеет мягкую <br>консистенцию и является <br> прекрасным
+                            дополнением к <br>любому блюду.
+                        </div>
+                        <div class='price-button'>
+                            <div class='price'>
+                                50 ₽
+                            </div>
+                            <div class='menu-button'>
+                                <a href='##' class="menu-btn" data-name="Лепёшка" data-price="50"
+                                    data-image="фото1.png">+</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class='bakery-product'>
+                        <div class='menu-image'>
+                            <img class='menu-image' src='images/фото2.png' alt="Лепёшка сырная" class='menu-img'>
+                        </div>
+
+                        <div class='menu-text'>
+                            Лепёшка сырная
+                        </div>
+
+                        <div class='menu-subtext'>
+                            Нежная лепешка, посыпанная <br> ароматным сыром, который <br>тает на горячем тесте,<br>
+                            создавая неповторимый вкус. <br> <br>
+                        </div>
+                        <div class='price-button'>
+                            <div class='price'>
+                                60 ₽
+                            </div>
+                            <div class='menu-button'>
+                                <a href='##' class="menu-btn" data-name="Лепёшка сырная" data-price="60"
+                                    data-image="фото2.png">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class='bakery-products'>
+
+                    <div class='bakery-product1'>
+                        <div class='menu-image'>
+                            <img class='menu-image' src='images/фото3.png' class='menu-img'>
+                        </div>
+
+                        <div class='menu-text1'>
+                            Кольцо с говядиной
+                        </div>
+
+                        <div class='menu-subtext1'>
+                            Аппетитное кольцо с нежными <br> кусочками говядины подчеркивает <br> вкус мяса и придает
+                            блюду <br> особую изысканность. <br> <br>
+                        </div>
+                        <div class='price-button'>
+                            <div class='price1'>
+                                100 ₽
+                            </div>
+                            <div class='menu-button'>
+                                <a href='##' class="menu-btn" data-name="Кольцо с говядиной" data-price="100"
+                                    data-image="фото3.png">+</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class='bakery-product1'>
+                        <div class='menu-image'>
+                            <img class='menu-image' src='images/фото4.png' class='menu-img'>
+                        </div>
+
+                        <div class='menu-text1'>
+                            Кольцо с сыром
+                        </div>
+
+                        <div class='menu-subtext1'>
+                            Горячее кольцо с сыром порадует <br> вас аппетитным ароматом и <br> невероятно нежным
+                            вкусом. При <br> каждом укусе вы почувствуете как <br> сыр плавится во рту.
+                        </div>
+                        <div class='price-button'>
+                            <div class='price1'>
+                                80 ₽
+                            </div>
+                            <div class='menu-button'>
+                                <a href='##' class="menu-btn" data-name="Кольцо с сыром" data-price="80"
+                                    data-image="фото4.png">+</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class='bakery-product1'>
+                        <div class='menu-image'>
+                            <img class='menu-image' src='images/фото5.png' class='menu-img'>
+                        </div>
+
+                        <div class='menu-text1'>
+                            Кольцо с курицей
+                        </div>
+
+                        <div class='menu-subtext1'>
+                            Кольцо с курицей - это <br>блюдо, в котором сочетаются <br>нежное куриное мясо и
+                            <br>ароматные специи, создающие <br>глубокий и насыщенный вкус.
+                        </div>
+                        <div class='price-button'>
+                            <div class='price1'>
+                                90 ₽
+                            </div>
+                            <div class='menu-button'>
+                                <a href='##' class="menu-btn" data-name="Кольцо с курицей" data-price="90"
+                                    data-image="фото5.png">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class='bakery-products'>
+
+                    <div class='bakery-product1'>
+                        <div class='menu-image'>
+                            <img class='menu-image' src='images/фото6.png' class='menu-img'>
+                        </div>
+
+                        <div class='menu-text1'>
+                            Самса с говядиной
+                        </div>
+
+                        <div class='menu-subtext1'>
+                            Самса с начинкой из сочной <br>говядины, запеченная в <br>тандыре - ароматное сочетание
+                            <br>мяса и тонкого теста.<br><br>
+                        </div>
+                        <div class='price-button'>
+                            <div class='price1'>
+                                120 ₽
+                            </div>
+                            <div class='menu-button'>
+                                <a href='##' class="menu-btn" data-name="Самса с говядиной" data-price="120"
+                                    data-image="фото6.png">+</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class='bakery-product1'>
+                        <div class='menu-image'>
+                            <img class='menu-image' src='images/фото7.png' class='menu-img'>
+                        </div>
+
+                        <div class='menu-text1'>
+                            Самса с курицей
+                        </div>
+
+                        <div class='menu-subtext1'>
+                            Самса с курицей - это <br>настоящий кулинарный шедевр, <br>который радует не только
+                            <br>гурманов, но и ценителей <br>изысканной восточной кухни.
+                        </div>
+                        <div class='price-button'>
+                            <div class='price1'>
+                                110 ₽
+                            </div>
+                            <div class='menu-button'>
+                                <a href='##' class="menu-btn" data-name="Самса с курицей" data-price="110"
+                                    data-image="фото7.png">+</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class='bakery-product1'>
+                        <div class='menu-image'>
+                            <img class='menu-image' src='images/фото8.png' class='menu-img'>
+                        </div>
+
+                        <div class='menu-text1'>
+                            Патыр
+                        </div>
+
+                        <div class='menu-subtext1'>
+                            Патыр - это традиционное <br>узбекское блюдо, которое по вкусу<br> напоминает крекер.
+                            Идеально <br>подходит тем, кто любит что-то <br>хрустящее и соленое.
+                        </div>
+                        <div class='price-button'>
+                            <div class='price1'>
+                                100 ₽
+                            </div>
+                            <div class='menu-button'>
+                                <a href='##' class="menu-btn" data-name="Патыр" data-price="100"
+                                    data-image="фото8.png">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class='galery'>
+
+        <div class='container'>
+
+            <div class='galery-title'>
+                Галерея <span>выпечки</span>
+            </div>
+
+
+            <div class='galery-content'>
+
+                <div class='galery-left'>
+
+                    <div class='galery-up'>
+                        <img class='img-gal high' src="images/фото11.png">
+                    </div>
+
+                    <div class='galery-down'>
+                        <img class='img-gal' src="images/фото21.png">
+                        <img class='img-gal' src="images/фото31.png">
+                    </div>
+
+                </div>
+
+                <div class='galery-right'>
+
+                    <div class='galery-up'>
+                        <img class='img-gal high' src="images/фото61.png">
+                    </div>
+
+                    <div class='galery-down'>
+                        <img class='img-gal' src="images/фото41.png">
+                        <img class='img-gal' src="images/фото51.png">
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <div id='history_name' class='history_name'>
+
+        <div class='container'>
+
+            <div class='history-title'>
+                О <span>нас</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class='history'>
+
+        <div class='container'>
+
+            <div class='history-holder'>
+                <div class='history-info'>
+
+                    <div class='history-desc'>
+                        “Солнечный тандыр” - это место, где можно насладиться выпечкой из тандыра и почувствовать вкус
+                        настоящего востока. Приходите отведать самые вкусные лепешки, сочную самсу, кольца с сыром,
+                        курицей или говядиной, а также патыр.
+                        <br>
+                        <br>Тандыр придает каждому блюду неповторимый вкус и аромат. Посетите “Солнечный Тандыр” и
+                        откройте для себя мир выпечки из восточной кухни.
+                    </div>
+
+                </div>
+
+                <div class='history-images'>
+                    <img class='imgages-1' src="images/о_нас_фото1.png" alt="">
+                    <img class='imgages-2' src="images/о_нас_фото2.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id='dostavka_name' class='dostavka_name'>
+
+        <div class='container'>
+
+            <div class='dostavka-title'>
+                Доставка
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class='dostavka'>
+
+        <div class='container'>
+
+            <div class='dostavka-holder'>
+                <div class='dostavka-info'>
+
+                    <div class='dostavka-desc'>
+                        Мы осуществляем доставку ежедневно с 9:00 до 22:00 в Красносельском районе Санкт-Петербурга.
+                        <br><br>Доставка осуществляется в тот же день в течение 3 часов.<br><br>
+                        Стоимость доставки составляет 300 рублей. При заказе от 800 рублей стоимость доставки бесплатно.
+                    </div>
+
+                </div>
+
+                <div class='dostavka-map'>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d128514.97453120907!2d29.98743811899441!3d59.781915870683015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963cf3c534cf9f%3A0x5f3ee9d9e9caf6fc!2z0JrRgNCw0YHQvdC-0YHQtdC70YzRgdC60LjQuSDRgC3QvSwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1717767138744!5m2!1sru!2sru"
+                        width="750" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class='final'>
+
+        <div class='container'>
+            <div class='final-info'>
+                <div class='final-left'>
+                    <div class='final-text'>
+                        Адрес:
+                    </div>
+                    <div class='final-subtext'>
+                        Санкт-Петербург, <br> ул. Генерала Кравченко 8
+                    </div>
+                </div>
+                <div class='final-center'>
+                    <div class='final-text'>
+                        Время работы:
+                    </div>
+                    <div class='final-subtext'>
+                        пн-вс: 9:00-22:00
+                    </div>
+                </div>
+                <div class='final-right'>
+                    <div class='final-text'>
+                        Контакты:
+                    </div>
+                    <div class='final-subtext'>
+                        +7 914 076 14 44
+                        <br>
+                        soltandyr@mail.ru
+                    </div>
+                </div>
+            </div>
+            <div class="info-req">
+                <div class='text-req'>
+                    Реквизиты
+                    <br>
+                    ИП Шевчук Дмитрий Владимирович; <br>
+                    р/с: 40802810732470005437 <br>
+                    ИНН: 251107397982; <br>
+                    ОГРН 323784700357897, Филиал «Санкт-Петербургский» АО <br>
+                    «Альфа-Банк» <br>
+                    БИК: 044030786 <br>
+                    к/с: 30101810600000000786 <br>
+                    Юридический/почтовый адрес:... <br>
+                    Email службы поддержки: suntandoor@mail.ru<br><br>
+
+                    <a class="conf" href="https://cdn.img-gorod.ru/nomenclature/26/182/2618272.pdf">Политика
+                        конфидециальности</a>
+                </div>
+
+                <a class='links-item' href="https://www.instagram.com/">
+                    <img src='images/инстаграм.png' alt='' class="inst-image">
+                </a>
+                <a class='links-item' href="https://vk.com/">
+                    <img src='images/вк2.png' alt='' class="vk-image">
+                </a>
+                <a class='links-item' href="https://telegram.org/">
+                    <img src='images/телеграм.png' alt='' class="tg-image">
+                </a>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <c-cart currency="₽" fab="1" action="thankyou.php" method="post"></c-cart>
+
+    <script src='app.js'></script>
+
+</body>
+
+</html>
