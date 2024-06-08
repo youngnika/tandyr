@@ -1,0 +1,1154 @@
+body {
+    margin: 0;
+    font-family: "Anonymous Pro", monospace;
+}
+
+
+.container {
+    margin: 0px 90px;
+}
+
+.header {
+    background-image: url(images/bg.png);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-down {
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.nav-item {
+    color: #1D1515;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+
+    margin-right: 70px;
+
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    color: #B02E0C;
+}
+
+.num:hover {
+    color: #B02E0C;
+}
+
+.cart {
+    position: relative;
+    height: 38px;
+}
+
+.cart-img {
+    position: absolute;
+    top: 1px;
+    right: 20px;
+}
+
+
+.num {
+    color: #1D1515;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    transition: color 0.3s linear;
+}
+
+
+
+.header-title {
+    color: #1D1515;
+    font-family: "Anonymous Pro", monospace;
+    font-size: 30px;
+    font-weight: 400;
+
+    text-align: center;
+    position: absolute;
+    left: 87;
+
+    margin-top: 333px;
+}
+
+.header-button {
+    background-color: #B02E0C;
+    padding: 28px 19px;
+    color: #F3E3CB;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: "Anonymous Pro", monospace;
+    text-decoration: none;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    position: absolute;
+    margin-left: 210px;
+
+    margin-top: 400px;
+
+    transition: background-color 0.4s linear;
+}
+
+.header-button:hover {
+    background-color: #F7BD28;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card {
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    margin-right: 31px;
+    background-color: #F7BD28;
+    margin-top: -130px;
+    padding: 0px 9px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    margin-bottom: 35px;
+}
+
+.card-desc {
+    text-align: center;
+    font-family: "Anonymous Pro", monospace;
+    font-size: 32px;
+    font-weight: 400;
+    color: #1D1515;
+    margin-bottom: 75px;
+}
+
+.card-desc span {
+    color: #B02E0C;
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+.bakery {
+    margin-top: 200px;
+}
+
+.bakery-title {
+    font-family: "Anonymous Pro", monospace;
+    font-size: 47px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.bakery-subtitle {
+    font-family: "Anonymous Pro", monospace;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
+.bakery-products {
+    display: flex;
+    justify-content: center;
+}
+
+.bakery-product {
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    flex-direction: column;
+}
+
+.bakery-product1 {
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    flex-direction: column;
+}
+
+.menu-text {
+    font-family: "Anonymous Pro", monospace;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    margin-left: 20px;
+}
+
+.menu-text1 {
+    font-family: "Anonymous Pro", monospace;
+    font-size: 36px;
+    text-align: left;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    margin-left: 6px;
+}
+
+.menu-subtext {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.menu-subtext1 {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 6px;
+}
+
+.menu-btn {
+    background-color: #B02E0C;
+    padding: 5px 35px;
+    color: #F3E3CB;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: "Anonymous Pro", monospace;
+    text-decoration: none;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: 190px;
+
+    transition: background-color 0.4s linear;
+}
+
+.menu-btn:hover {
+    background-color: #F7BD28;
+}
+
+.price-button {
+    display: flex;
+}
+
+.menu-button {
+    margin-top: 0px;
+
+}
+
+.price {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 16px;
+}
+
+.price1 {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 16px;
+}
+
+.galery {
+    margin-top: 200px;
+    background-image: url(images/фон.png);
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.galery-title {
+    padding-top: 45px;
+    font-family: "Anonymous Pro", monospace;
+    font-size: 47px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.galery-content {
+    display: flex;
+    justify-content: center;
+}
+
+.galery-left {
+    margin-right: 20px;
+}
+
+.galery-down,
+.galery-up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.history {
+    margin-top: 130px;
+    height: 80vh;
+}
+
+.history_name {
+    margin-top: 50px;
+
+}
+
+.history-title {
+    padding-top: 45px;
+    font-family: "Anonymous Pro", monospace;
+    font-size: 47px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.history-desc {
+    color: #1D1515;
+    font-size: 33.77px;
+    font-weight: 400;
+    width: 400px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+
+.history-images {
+    position: relative;
+}
+
+.history-holder {
+    display: flex;
+}
+
+
+
+.dostavka {
+    margin-top: 130px;
+    height: 80vh;
+}
+
+.dostavka_name {
+    margin-top: 210px;
+
+}
+
+.dostavka-title {
+    padding-top: 45px;
+    font-family: "Anonymous Pro", monospace;
+    font-size: 47px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.dostavka-desc {
+    color: #1D1515;
+    font-size: 33.77px;
+    font-weight: 400;
+    width: 439px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+
+.dostavka-map {
+    position: relative;
+    margin-left: 50px;
+}
+
+.dostavka-holder {
+    display: flex;
+}
+
+.imgages-1 {
+    position: absolute;
+    z-index: 0;
+    top: 170px;
+    left: 175px;
+}
+
+.imgages-2 {
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+    left: 535px;
+}
+
+.final {
+    margin-top: 200px;
+    background-image: url(images/фон.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.final-info {
+    position: relative;
+    display: flex;
+    margin-top: 0px;
+    left: 30px;
+}
+
+.final-left {
+    margin-left: 0px;
+    margin-right: 80px;
+}
+
+.final-center {
+    text-align: center;
+    margin-right: 170px;
+}
+
+.final-right {
+    text-align: right;
+}
+
+.final-text {
+    font-family: "Anonymous Pro", monospace;
+    font-size: 32px;
+    text-align: left;
+    font-weight: 700;
+    padding-top: 120px;
+    padding-bottom: 17px;
+    align-items: center;
+}
+
+.final-subtext {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: left;
+    align-items: center;
+}
+
+.info-req {
+    position: relative;
+    padding-top: 75px;
+    display: flex;
+    left: 30px;
+}
+
+.text-req {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+    align-items: center;
+}
+
+
+.conf {
+    text-decoration: none;
+    color: #1D1515;
+    transition: background-color 0.4s linear;
+}
+
+.conf:hover {
+    text-decoration: underline;
+}
+
+.links-item {
+    margin-right: 42px;
+
+    text-align: center;
+}
+
+.button-menu {
+    display: none;
+}
+
+.glavnaya-text {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    /*.button-menu {
+        display: block;
+        position: fixed;
+        right: 150px;
+    }
+
+    .block {
+        display: block;
+        font-size: 25px;
+    }*/
+
+    .button-slide {
+        position: fixed;
+        right: 50px;
+    }
+
+    button {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        margin-bottom: 20px;
+    }
+
+    .disp {
+        display: none;
+    }
+
+    .nav,
+    .number {
+        display: none;
+    }
+
+    .glavnaya-text {
+        display: block;
+        width: 95%;
+        margin: 10px 20px 0px;
+        margin-top: 40px;
+    }
+
+
+
+    header-line {
+        justify-content: space-between;
+    }
+
+
+    .galery-content {
+        display: inline-block;
+        margin-left: 210px;
+    }
+
+    .img-gal {
+        margin-bottom: 30px;
+    }
+
+    .galery-left {
+        margin-right: 0;
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+
+    .bakery-products {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .header-title {
+        display: grid;
+        margin-top: 350px;
+        margin-left: 180px;
+        width: 60%;
+        justify-content: space-between;
+    }
+
+    .header-bth {
+        width: 50%;
+        margin-left: 150px;
+        margin-top: 800px;
+        display: block;
+    }
+
+    .header-suptitle:before,
+    .header-suptitle:after {
+        content: none;
+    }
+
+    .menu-text1 {
+        display: block;
+        margin-left: 180px;
+    }
+
+    .menu-text {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .menu-subtext {
+        display: block;
+        margin-right: auto;
+        margin-left: 120px;
+    }
+
+    .menu-subtext1 {
+        display: block;
+        margin-left: 104px;
+    }
+
+    .price-button {
+        width: 60%;
+        margin-left: 205px;
+        margin-top: 30px;
+    }
+
+    .menu-button {
+        display: block;
+        margin: -10px 60px -5px;
+
+        .price1 {
+            width: auto;
+        }
+
+        .menu-image {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+
+        .cook-content {
+            display: block;
+        }
+
+        .cook-content img {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 30px;
+        }
+
+
+        .block-holder {
+            display: block;
+        }
+
+        .left-title,
+        .left-text,
+        .right-button {
+            text-align: center;
+        }
+
+        .right-button {
+            margin-top: 30px;
+        }
+
+
+
+
+        .history-title,
+        .history-desc,
+        .history-number {
+            width: auto;
+        }
+
+
+        .dostavka-title,
+        .dostavka-desc,
+        .dostavka-number {
+            width: auto;
+        }
+    }
+
+
+
+
+    @media (max-width: 1300px) {
+
+        .cards-holder {
+            display: block;
+        }
+
+        .card {
+            width: 50%;
+            margin-top: 30px;
+            padding-bottom: 15px;
+            margin-left: 210px;
+        }
+
+    }
+
+
+
+
+    @media (max-width: 1300px) {
+
+        .history-holder {
+            display: block;
+        }
+
+        .history-title {
+            margin-bottom: 0px;
+            font-size: 80px;
+        }
+
+        .history-desc {
+            display: contents;
+            text-align: left;
+            font-size: 350%;
+        }
+
+        .history-images {
+            display: block;
+            width: 700px;
+        }
+
+
+        .dostavka-holder {
+            display: block;
+        }
+
+        .dostavka-title {
+            margin-bottom: 0px;
+            font-size: 80px;
+        }
+
+        .dostavka-desc {
+            display: contents;
+            text-align: left;
+            font-size: 350%;
+        }
+
+        .dostavka-map {
+            display: block;
+            width: 700px;
+        }
+
+        .dostavka-map iframe {
+            display: flex;
+            float: inline-end;
+            margin-block: 50px;
+        }
+
+        .high {
+            display: block;
+        }
+
+
+
+        .final {
+            margin-top: -30%;
+            margin-bottom: 0px;
+            height: 85vh;
+
+        }
+
+        .final-info {
+            display: grid;
+            margin-right: 490px;
+        }
+
+        .history_name {
+            margin-top: 5%;
+            margin-bottom: -100px;
+        }
+
+        .dostavka_name {
+            margin-top: 5%;
+            margin-bottom: -100px;
+        }
+
+        .final-text,
+        .final-subtext,
+        .tetxt-req {
+            font-size: 55px;
+        }
+
+        .final-left,
+        .final-center,
+        .final-right,
+        .info-req {
+            float: none;
+            display: block;
+            margin-left: auto;
+            margin-right: -70px;
+            margin-bottom: auto;
+
+        }
+
+        .final-left {
+            margin-left: auto;
+        }
+
+        .vk-image {
+            width: 110px;
+        }
+
+        .inst-image {
+            width: 90px;
+        }
+
+        .tg-image {
+            width: 85px;
+        }
+
+        .links-item {
+            padding-right: 20px;
+        }
+
+        .links-item img {
+            position: relative;
+            margin-block: 50px;
+            left: 180px;
+        }
+
+        .conf {
+            position: relative;
+            font-size: 20px;
+        }
+
+        .header {
+            top: 100px;
+            background-image: url(images/headback.svg);
+            background-size: cover;
+            background-position: 100px 100px 300px 300px;
+            height: 140vh;
+
+
+        }
+
+        .header-title {
+            font-size: 30px;
+            font-weight: 30px;
+            text-align: center;
+            position: absolute;
+            left: 40px;
+            top: 440px;
+            margin-top: 0px;
+        }
+
+        .header-button {
+            padding: 38px 50px;
+            font-size: 26px;
+            text-decoration: none;
+            border-radius: 45px 45px 45px 45px;
+            text-align: center;
+            position: absolute;
+            top: 540px;
+            margin-left: 100px;
+            margin-top: 0px;
+        }
+
+        .history {
+            margin-top: 130px;
+            height: 120vh;
+        }
+
+        .history-info {
+            display: block;
+        }
+
+
+
+
+        .dostavka {
+            margin-top: 130px;
+            height: 120vh;
+        }
+
+        .dostavka-info {
+            display: block;
+        }
+
+        .imgages-1 {
+            position: absolute;
+            z-index: 999;
+            width: 55%;
+            top: 50px;
+            left: 0%;
+        }
+
+        .imgages-2 {
+            position: absolute;
+            z-index: 999;
+            width: 55%;
+            top: 35px;
+            left: 60%;
+
+
+        }
+
+
+        .header-logo img {
+            content: url('лого.png');
+        }
+
+        .header-logo {
+            margin-top: 10px;
+            width: 80%;
+            margin-left: -85px;
+
+        }
+
+        .cards {
+            margin: -200px 0px 0px;
+            position: center;
+
+        }
+
+        .cards-holder {
+            display: block;
+            position: center;
+        }
+
+        .card-img {
+            width: 50%;
+            position: center;
+            margin-top: 100px;
+        }
+
+        .card {
+            width: 75%;
+            margin-top: 50px;
+            padding-bottom: 100px;
+            margin-left: 10%;
+            position: center;
+        }
+
+        .card-desc {
+            font-size: 50px;
+
+        }
+
+        .button-menu {
+            position: center;
+            right: 60px;
+            margin: 0px;
+            width: 80px;
+        }
+
+        .button-slide {
+            top: 180px;
+            right: -40px;
+        }
+
+        .bakery-title {
+            font-size: 110px;
+            position: center;
+            padding-top: 100px;
+
+        }
+
+        .bakery-subtitle {
+            margin-top: 10px;
+            font-size: 40px;
+            margin-bottom: -20px;
+        }
+
+
+        .bakery {
+            margin-top: 100px;
+        }
+
+        .menu-image {
+            width: 700px;
+        }
+
+        .menu-text {
+            margin-top: 10px;
+            margin-left: 70px;
+            text-align: left;
+            font-size: 80px;
+        }
+
+        .menu-subtext {
+            font-size: 20px;
+            margin-left: 70px;
+            padding-top: -50px;
+        }
+
+        .menu-text1 {
+            margin-top: 10px;
+            margin-left: 70px;
+            text-align: left;
+            font-size: 50px;
+        }
+
+        .menu-subtext1 {
+            font-size: 20px;
+            margin-left: 70px;
+            padding-top: -50px;
+        }
+
+        .price,
+        .price1 {
+            font-size: 50px;
+            margin-left: -135px;
+        }
+
+        .menu-btn,
+        .menu-btn1 {
+            padding: 15px 80px;
+            font-size: 40px;
+            margin-right: -100px;
+            top: 100px;
+
+        }
+
+        .img-gal high,
+        .img-gal,
+        .galery-down,
+        .galery-up {
+            width: 120%;
+            margin: 120px;
+            margin-bottom: -95px;
+            margin-left: -72px;
+        }
+
+        .galery {
+            height: 105vh;
+        }
+
+        .galery-title {
+            font-size: 80px;
+            margin-bottom: -150px;
+        }
+
+
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1375px) {
+    .nav-item {
+        font-size: 20px;
+        margin-right: 50px;
+    }
+
+    .num {
+        font-size: 20px;
+    }
+
+    .history-images {
+        right: 95px;
+        width: auto;
+    }
+
+    .dostavka-map {
+        position: relative;
+        right: 90px;
+    }
+
+    .header-title {
+        margin-top: 290px;
+        margin-left: -24px;
+    }
+
+    .header-button {
+        margin-top: 340px;
+    }
+
+    .final {
+        height: 130vh;
+    }
+}
+
+@media(min-width: 1920px) {
+    .header-logo img {
+        width: 150%;
+    }
+
+    .nav-item {
+        font-size: 28px;
+        margin-right: 60px;
+    }
+
+    .num {
+        font-size: 28px;
+    }
+
+    .header-title {
+        margin-top: 540px;
+        margin-left: 30px;
+        font-size: 250%;
+    }
+
+    .header-button {
+        margin-top: 650px;
+        margin-left: 300px;
+        font-size: 145%;
+    }
+
+    .menu-text1 {
+        margin-left: 50px;
+    }
+
+    .price-button {
+        margin-left: 40px;
+    }
+
+    .menu-subtext,
+    .menu-subtext1 {
+        font-size: 25px;
+        margin-left: 50px;
+    }
+
+    .galery-content img {
+        width: 120%;
+        margin-right: 30px;
+    }
+
+    .galery {
+        height: 85vh;
+    }
+
+    .history-desc {
+        position: relative;
+        font-size: 37px;
+        left: 120px;
+    }
+
+    .history-images img {
+        clear: both;
+        width: 430px;
+        margin-left: 50px;
+    }
+
+    .imgages-2 {
+        left: 650px;
+    }
+
+    .dostavka-desc {
+        position: relative;
+        font-size: 37px;
+        left: 120px;
+    }
+
+    .dostavka-map {
+        left: 130px;
+    }
+
+    .dostavka-map iframe {
+        width: 300%;
+        height: 580px;
+    }
+
+    .final-info {
+        margin-left: 100px;
+    }
+
+    .final-text,
+    .final-subtext {
+        font-size: 40px;
+    }
+
+    .info-req {
+        margin-block: 50px;
+        margin-left: 100px;
+    }
+
+    .final {
+        height: 75vh;
+    }
+}
