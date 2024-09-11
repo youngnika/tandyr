@@ -1,3 +1,6 @@
+html {
+    font-size: 26px;
+}
 body {
     margin: 0;
     font-family: "Anonymous Pro", monospace;
@@ -144,6 +147,8 @@ body {
 
 .bakery {
     margin-top: 200px;
+    max-width: 100%;
+    overflow-x: scroll;
 }
 
 .bakery-title {
@@ -269,9 +274,10 @@ body {
 }
 
 .galery {
+    max-width: 100%;
+    overflow-x: scroll;
     margin-top: 200px;
     background-image: url(images/фон.png);
-    height: 110vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -304,7 +310,6 @@ body {
 
 .history {
     margin-top: 130px;
-    height: 80vh;
 }
 
 .history_name {
@@ -334,10 +339,13 @@ body {
 
 
 .history-images {
+    margin-top: 50px;
     position: relative;
 }
 
 .history-holder {
+    width: 100%;
+    justify-content: space-between;
     display: flex;
 }
 
@@ -345,7 +353,9 @@ body {
 
 .dostavka {
     margin-top: 130px;
-    height: 80vh;
+    max-width: 100%;
+    overflow: scroll;
+    /*height: 80vh;*/
 }
 
 .dostavka_name {
@@ -384,14 +394,14 @@ body {
 }
 
 .imgages-1 {
-    position: absolute;
+    /*position: absolute;*/
     z-index: 0;
     top: 170px;
     left: 175px;
 }
 
 .imgages-2 {
-    position: absolute;
+    /*position: absolute;*/
     z-index: 999;
     top: 0px;
     left: 535px;
@@ -400,7 +410,7 @@ body {
 .final {
     margin-top: 200px;
     background-image: url(images/фон.png);
-    height: 90vh;
+    /*height: 90vh;*/
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -547,8 +557,17 @@ body {
 
 }
 
-@media (max-width: 1000px) {
+@media all and (min-width: 1000px) {
+    html {
+        font-size: 16px;
+    }
 
+    .history-images {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1000px) {
     .bakery-products {
         display: block;
         margin-right: auto;
@@ -662,10 +681,7 @@ body {
         }
     }
 
-
-
-
-    @media (max-width: 1300px) {
+    @media (max-width: 1000px) {
 
         .cards-holder {
             display: block;
@@ -683,7 +699,7 @@ body {
 
 
 
-    @media (max-width: 1300px) {
+    @media (max-width: 1000px) {
 
         .history-holder {
             display: block;
@@ -697,14 +713,15 @@ body {
         .history-desc {
             display: contents;
             text-align: left;
-            font-size: 350%;
+            font-size: 20px;
         }
 
         .history-images {
-            display: block;
-            width: 700px;
+            display: flex;
+            width: 100%;
+            gap: 40px;
+            justify-content: space-between;
         }
-
 
         .dostavka-holder {
             display: block;
@@ -718,7 +735,7 @@ body {
         .dostavka-desc {
             display: contents;
             text-align: left;
-            font-size: 350%;
+            font-size: 20px;
         }
 
         .dostavka-map {
@@ -728,7 +745,7 @@ body {
 
         .dostavka-map iframe {
             display: flex;
-            float: inline-end;
+            /*float: inline-end;*/
             margin-block: 50px;
         }
 
@@ -739,9 +756,9 @@ body {
 
 
         .final {
-            margin-top: -30%;
+            /*margin-top: -30%;*/
             margin-bottom: 0px;
-            height: 95vh;
+            /*height: 95vh;*/
 
         }
 
@@ -751,12 +768,12 @@ body {
         }
 
         .history_name {
-            margin-top: 5%;
+            margin-top: 200px;
             margin-bottom: -100px;
         }
 
         .dostavka_name {
-            margin-top: 5%;
+            margin-top: 200px;
             margin-bottom: -100px;
         }
 
@@ -843,19 +860,16 @@ body {
 
         .history {
             margin-top: 130px;
-            height: 120vh;
+            /*height: 120vh;*/
         }
 
         .history-info {
             display: block;
         }
 
-
-
-
         .dostavka {
             margin-top: 130px;
-            height: 120vh;
+            /*height: 120vh;*/
         }
 
         .dostavka-info {
@@ -863,15 +877,15 @@ body {
         }
 
         .imgages-1 {
-            position: absolute;
+            /*position: absolute;*/
             z-index: 999;
             width: 55%;
-            top: 50px;
+            margin-top: 50px;
             left: 0%;
         }
 
         .imgages-2 {
-            position: absolute;
+            /*position: absolute;*/
             z-index: 999;
             width: 55%;
             top: 35px;
@@ -886,7 +900,7 @@ body {
         }
 
         .header-logo {
-            margin-top: 10px;
+            /*margin-top: 10px;*/
             width: 80%;
             margin-left: -85px;
 
@@ -895,7 +909,7 @@ body {
         .cards {
             margin: -200px 0px 0px;
             position: center;
-
+            max-width: 100%;
         }
 
         .cards-holder {
@@ -1008,7 +1022,7 @@ body {
         }
 
         .galery {
-            height: 105vh;
+            /*height: 105vh;*/
         }
 
         .galery-title {
@@ -1020,7 +1034,8 @@ body {
     }
 }
 
-@media (min-width: 1280px) and (max-width: 1375px) {
+
+@media (min-width: 1001px) and (max-width: 1375px) {
     .nav-item {
         font-size: 20px;
         margin-right: 50px;
@@ -1030,8 +1045,8 @@ body {
         font-size: 20px;
     }
 
-    .history-images {
-        right: 95px;
+    .imgages-2{
+        margin-left: 95px;
         width: auto;
     }
 
@@ -1062,7 +1077,7 @@ body {
     }
 
     .final {
-        height: 130vh;
+        /*height: 130vh;*/
     }
 
     .dostavka-map {
@@ -1074,6 +1089,18 @@ body {
     }
 }
 
+@media(min-width: 1276px) {
+    .imgages-1{
+        margin-bottom: -200px;
+        width: auto;
+    }
+}
+
+@media(min-width: 700px) {
+    .header-title {
+        font-size: 1.5rem;
+    }
+}
 @media(min-width: 1920px) {
     .header-logo img {
         width: 150%;
@@ -1120,7 +1147,7 @@ body {
     }
 
     .galery {
-        height: 85vh;
+        /*height: 85vh;*/
     }
 
     .history-desc {
@@ -1169,6 +1196,6 @@ body {
     }
 
     .final {
-        height: 75vh;
+        /*height: 75vh;*/
     }
 }
